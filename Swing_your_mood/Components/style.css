@@ -1,0 +1,36 @@
+body{
+    background-color: gray;
+}
+@media (min-width: 0px) and (max-width: 766px){
+    .carousel-item>img{
+        height: 400px;
+    }
+}
+h2 {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    opacity: 0.8;
+    color: whitesmoke;
+    font-size: 20px;
+}
+#menu-tile, #specials-tile, #map-tile{
+      position: relative;
+      overflow: hidden;
+      height:250px;
+  }
+  #menu-tile, #specials-tile{
+      margin-bottom: 10px;
+  }
+  #menu-tile:hover , #specials-tile:hover , #map-tile:hover{
+      box-shadow: 3px 1px 5px 1px #cccccc;
+  }
+.card-img-top:hover{
+    transform: scale(1.12) !important;
+}
+.card{
+    overflow: hidden;
+}
